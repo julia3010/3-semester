@@ -1,0 +1,14 @@
+{
+  "name": "task2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  },
+  "scripts": {
+    "start": "mocha"
+  }
+}

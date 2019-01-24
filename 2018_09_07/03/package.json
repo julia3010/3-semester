@@ -1,0 +1,14 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "puppeteer": "^1.8.0",
+    "should": "^13.2.3"
+  },
+  "scripts": {
+    "start": "mocha"
+  }
+}
