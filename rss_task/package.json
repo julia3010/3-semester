@@ -1,0 +1,17 @@
+{
+  "name": "rss_task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0",
+    "rss-parser": "^3.6.2"
+  },
+  "scripts": {
+    "start": "nodemon"
+  }
+}
