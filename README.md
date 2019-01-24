@@ -1,6 +1,6 @@
 # Севостьянова Юлия, P4263
 
-Задания за 1 семестр 2018-2019 учебного года news
+Задания за 1 семестр 2018-2019 учебного года
 
 ## PZAT-001 / TEST-001
 
@@ -23,48 +23,3 @@
 ## NODE-004
 
 [Stream](https://github.com/julia3010/3-semester/tree/master/stream)
-
-## GZIP-0001
-
-**Созданиие зипующего стрима**
-
-> [ZIP Stream](https://github.com/PavelBazhan/ifmo-results-3/tree/master/gzip)
-
-## CODE-001
-
-**Хакатон с отправкой зашифрованного сообщения**
-
-> [CODE](https://github.com/PavelBazhan/ifmo-results-3/tree/master/code-001)
-
-## AUTH-001
-
-**Задание с исследованием аутентификации**
-
-> [Authentication](https://github.com/PavelBazhan/ifmo-results-3/tree/master/auth-001)
-
-## SOCK-001
-
-**Презентация на socket.io**
-
-> [Socket.io Presentation + Chat](https://github.com/PavelBazhan/ifmo-results-3/tree/master/sock-001)
-
-## DOCK-001
-
-**Обёртывание приложения в контейнеры: исследование**
-
-> как автоматизировать создание REST
-> как автоматизировать генерацию сертфикатов
-
-## NODE-005
-
-**Развёртывание CMS на Node и их сравнительный анализ при сопоставлении с CMS на PHP. Пример: Ghost vs WordPress)**
-
-> strings
-> strings
-
-## TERM-001
-
-**ИТОГОВОЕ задание / задание по практике**
-
-> strings
-> strings
