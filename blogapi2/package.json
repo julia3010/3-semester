@@ -1,0 +1,17 @@
+{
+  "name": "blogapi2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.6",
+    "node-fetch": "^2.3.0",
+    "nodemon": "^1.18.9",
+    "pug": "^2.0.3"
+  }
+}

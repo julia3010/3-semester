@@ -1,0 +1,18 @@
+doctype html
+html(dir='ltr', lang='en')
+  head
+    meta(charset='utf-8')
+    title Blog API
+    link(rel='stylesheet', href='/public/index.css')
+  body
+    header
+      h1 News Feed
+    a.button(href='/') Main Page
+    section.center
+      form.post_description(action='/api/posts', method='post', id='mainform')
+        input(type='text', name='title', placeholder='Enter a Title here')
+        input(type='text', name='categories', placeholder='Enter a Categories here')
+        textarea(name='content', id='textarea')
+        p Press Shift+Enter to CRLF, Enter to submit
+        input(type='submit', name='send', value='Public')
+    script(src='/public/submit.js', charset='utf-8')

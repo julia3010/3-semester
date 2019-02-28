@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background: #191970;
+}
+
+h1 {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  line-height: 100px;
+  margin-left: 20px;
+}
+
+a.button {
+  display: block;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  width: 120px;
+  height: 40px;
+  background: #191970;
+  color: white;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+a.button:hover {
+  background: #4169E1;
+}
+
+a.button:active {
+  background: #000;
+}
+
+section.center {
+  width: 800px;
+  margin: auto;
+  margin-top: 20px;
+  /*background: #eee;*/
+}
+
+ul.posts {
+  margin: 0;
+  padding: 0;
+}
+
+ul.posts li {
+  list-style: none;
+  display: block;
+  padding: 0 20px 0 20px;
+  background: #eee;
+  border-bottom: 3px solid #393990;
+  border-top: 3px solid #393990;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+ul.posts li p:first-of-type {
+  font-size: 12px;
+}
+
+ul.posts li p:first-of-type:before {
+  content: "Categories: "
+}
+
+ul.posts a.api_link,
+ul.posts a.del_link {
+  position: absolute;
+  display: block;
+  top: 5px;
+  right: 5px;
+  color: #999;
+}
+
+ul.posts a.api_link:hover {
+  color: #696969;
+}
+
+ul.posts a.del_link {
+  right: 70px;
+  color: #FA8072;
+}
+
+ul.posts a.del_link:hover {
+  color: #CA5042;
+}
+
+form.post_description {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+form.post_description textarea {
+  box-sizing: border-box;
+  resize: none;
+  margin: 0 20px;
+  width: 760px;
+  height: 20em;
+  padding: 1em;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+form.post_description p {
+  margin: 0 20px;
+  color: #aaa;
+  line-height: 20px;
+}
+
+form.post_description input[type='text'] {
+  box-sizing: border-box;
+  margin: 0 20px 20px 20px;
+  width: 360px;
+  height: 3em;
+  padding: 0 1em;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+form.post_description input[type='submit'] {
+  display: block;
+  margin: auto;
+  border: none;
+  width: 120px;
+  height: 40px;
+  background: #333;
+  color: white;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}

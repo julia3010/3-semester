@@ -1,4 +1,4 @@
-# Севостьянова Юлия, P4263
+# Севостьянова Юлия, P4262
 
 Задания за 1 семестр 2018-2019 учебного года
 
@@ -25,3 +25,23 @@
 ## NODE-004
 
 [Stream](https://github.com/julia3010/3-semester/tree/master/stream)
+
+## GZIP-0001
+
+[ZIP Stream](https://github.com/julia3010/3-semester/tree/master/gzip)
+
+## CODE-001
+
+[CODE](https://github.com/julia3010/3-semester/tree/master/code-001)
+
+## AUTH-001
+
+[Authentication](https://github.com/julia3010/3-semester/tree/master/auth-001)
+
+## SOCK-001
+
+[Socket.io Presentation + Chat](https://github.com/julia3010/3-semester/tree/master/sock-001)
+
+## TERM-001
+
+[Blog API](https://github.com/julia3010/3-semester/tree/master/blogapi2)

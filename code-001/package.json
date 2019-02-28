@@ -1,0 +1,11 @@
+{
+  "name": "code-001",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "JuliaSevostyanova",
+  "license": "MIT",
+  "scripts": {
+    "decrypt": "node index.js",
+    "encrypt": "node encrypt.js"
+  }
+}

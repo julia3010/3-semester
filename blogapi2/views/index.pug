@@ -1,0 +1,19 @@
+doctype html
+html(dir='ltr', lang='en')
+  head
+    meta(charset='utf-8')
+    title Blog API
+    link(rel='stylesheet', href='/public/index.css')
+  body
+    header
+      h1 BLOG
+    a.button(href='/new_post') New Post
+    section.center
+      ul.posts
+        each item in posts
+          li
+            h2= item.title
+            p= item.categories
+            p= item.content
+            a.api_link(href='/api/posts/' + item.id , target='_blank') API Link
+            a.del_link(href='/delete/' + item.id) Delete

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to the Chat</title>
+    <link rel="stylesheet" href="/res/index.css">
+  </head>
+  <body>
+    <script src = "/res/socket.io.js"></script>
+
+    <ul class="gallery" id='gallery'>
+      <li id='li01'><img src="/res/pics/pic01.png" alt="" id="pic01"></li>
+      <li id='li02'><img src="/res/pics/pic02.jpg" alt="" id="pic02"></li>
+      <li id='li03'><img src="/res/pics/pic03.png" alt="" id="pic03"></li>
+      <li id='li04'><img src="/res/pics/pic04.jpg" alt="" id="pic04"></li>
+      <li id='li05'><img src="/res/pics/pic05.jpg" alt="" id="pic05"></li>
+    </ul>
+
+    <div class="login">
+      <a href="/logout">Logout</a>
+    </div>
+
+    <script type="text/javascript">
+      var socket = io();
+      var addEvents = (e) => {
+        var message = ''
+        if (e.target.firstChild) {
+          console.log(e.target.firstChild.src.substr(-19));
+          message = e.target.firstChild.src.substr(-19);
+        } else {
+          console.log(e.target.src.substr(-19));
+          message = e.target.src.substr(-19);
+        }
+        socket.emit('imgMessage', message);
+      }
+
+      socket.on('broadcast', (data) => {
+        console.log(data);
+      });
+
+      document.getElementById('li01').onclick = addEvents;
+      document.getElementById('li02').onclick = addEvents;
+      document.getElementById('li03').onclick = addEvents;
+      document.getElementById('li04').onclick = addEvents;
+      document.getElementById('li05').onclick = addEvents;
+
+
+    </script>
+  </body>
+</html>
